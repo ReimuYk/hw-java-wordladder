@@ -110,7 +110,7 @@ public class wordladder {
         }
     }
 
-    public static int main(String[] args){
+    public static void main(String[] args){
         wordladder w = new wordladder();
         w.makeWordSet("./src/dicts/dictionary.txt");
 //        String s1 = "data";
@@ -132,12 +132,12 @@ public class wordladder {
         }
         if (w.result != null){
             w.printNode(w.result);
-            return 1;
+            return;
         }
         else{
             System.out.println("not exist");
             System.out.print(w.linked);
-            return 0;
+            return;
         }
     }
 

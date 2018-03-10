@@ -8,16 +8,16 @@
     <artifactId>WordLadder</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>junit</groupId>-->
-            <!--<artifactId>junit</artifactId>-->
-            <!--&lt;!&ndash; 默认的版本为3.8.1，修改为4.x,因为3.x使用的为编程的方式，4.x为注解的形式。 &ndash;&gt;-->
-            <!--<version>4.12</version>-->
-            <!--&lt;!&ndash; 去掉scope作用域，使用默认的compile，编译、测试、运行都有效的作用域 &ndash;&gt;-->
-            <!--&lt;!&ndash;<scope>test</scope>&ndash;&gt;-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
