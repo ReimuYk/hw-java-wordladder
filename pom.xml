@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>WordLadder</groupId>
+    <artifactId>WordLadder</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>junit</groupId>-->
+            <!--<artifactId>junit</artifactId>-->
+            <!--&lt;!&ndash; 默认的版本为3.8.1，修改为4.x,因为3.x使用的为编程的方式，4.x为注解的形式。 &ndash;&gt;-->
+            <!--<version>4.12</version>-->
+            <!--&lt;!&ndash; 去掉scope作用域，使用默认的compile，编译、测试、运行都有效的作用域 &ndash;&gt;-->
+            <!--&lt;!&ndash;<scope>test</scope>&ndash;&gt;-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
+
+
+</project>
+
